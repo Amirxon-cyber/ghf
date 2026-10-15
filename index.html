@@ -219,6 +219,27 @@
 
     <div id="toast"></div>
 
+    <div class="amir-quote">
+        <span class="quote-line"></span>
+        <p>“Amir — a name that carries ambition, strength, and the courage to dream beyond limits.”</p>
+        <span class="quote-author">— THE MEANING OF AMIR</span>
+    </div>
+
+    <button id="theme-toggle">☀️</button>
+    <script>
+        const themeButton = document.querySelector("#theme-toggle");
+
+        themeButton.addEventListener("click", () => {
+            document.body.classList.toggle("light-theme");
+
+            if (document.body.classList.contains("light-theme")) {
+                themeButton.textContent = "🌙";
+            } else {
+                themeButton.textContent = "☀️";
+            }
+        });
+    </script>
+
 </body>
 
 </html>

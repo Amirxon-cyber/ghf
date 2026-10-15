@@ -584,3 +584,39 @@ body.light-theme .logo span {
         transition: none;
     }
 }
+
+body.light-theme {
+    background: #f5f2eb;
+    color: #20251f;
+}
+
+.amir-quote {
+    max-width: 600px;
+    margin: 25px auto 10px;
+    text-align: center;
+}
+
+.quote-line {
+    display: block;
+    width: 55px;
+    height: 2px;
+    background: #d5b47a;
+    margin: 0 auto 18px;
+    box-shadow: 0 0 12px #d5b47a;
+}
+
+.amir-quote p {
+    color: #e8d9b9;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.9;
+    letter-spacing: 0.4px;
+}
+
+.quote-author {
+    display: block;
+    margin-top: 15px;
+    color: #d5b47a;
+    font-size: 10px;
+    letter-spacing: 3px;
+}   
